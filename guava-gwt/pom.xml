@@ -158,7 +158,6 @@
       <plugin>
         <groupId>com.github.spotbugs</groupId>
         <artifactId>spotbugs-maven-plugin</artifactId>
-        <version>4.7.0</version>
       </plugin>
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
