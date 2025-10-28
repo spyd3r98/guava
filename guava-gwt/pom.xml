@@ -14,11 +14,12 @@
     utility classes, Google's collections, I/O classes, and
     much more.
 
-      <plugin>
-        <groupId>com.github.spotbugs</groupId>
-        <artifactId>spotbugs-maven-plugin</artifactId>
-        <version>4.7.0</version>
-      </plugin>
+      <!-- SpotBugs plugin removed from description -->
+      <!-- <plugin> -->
+      <!--   <groupId>com.github.spotbugs</groupId> -->
+      <!--   <artifactId>spotbugs-maven-plugin</artifactId> -->
+      <!--   <version>4.7.0</version> -->
+      <!-- </plugin> -->
     This project includes GWT-friendly sources.
   </description>
   <properties>
@@ -153,6 +154,11 @@
             </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>com.github.spotbugs</groupId>
+        <artifactId>spotbugs-maven-plugin</artifactId>
+        <version>4.7.0</version>
       </plugin>
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
