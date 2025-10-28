@@ -72,6 +72,10 @@
       </plugin>
       <plugin>
         <artifactId>maven-jar-plugin</artifactId>
+                  <plugin>
+                    <groupId>com.github.spotbugs</groupId>
+                    <artifactId>spotbugs-maven-plugin</artifactId>
+                  </plugin>
         <configuration>
           <archive>
             <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>

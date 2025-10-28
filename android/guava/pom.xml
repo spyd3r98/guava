@@ -68,6 +68,10 @@
               <Automatic-Module-Name>com.google.common</Automatic-Module-Name>
             </manifestEntries>
           </archive>
+          <plugin>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-maven-plugin</artifactId>
+          </plugin>
         </configuration>
       </plugin>
       <plugin>

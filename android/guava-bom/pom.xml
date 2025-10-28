@@ -62,6 +62,10 @@
             <version>0.8.0</version>
             <extensions>true</extensions>
           </plugin>
+          <plugin>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-maven-plugin</artifactId>
+          </plugin>
         </plugins>
       </build>
     </profile>
